@@ -1,0 +1,29 @@
+pkgVer <- function(pkg) {
+    if (!exists("meta") || is.null(meta)) meta <- packageDescription(pkg)
+    ver <- meta$Version
+    paste0('https://github.com/JuliethLopez/mipaquete/', pkg, ' - R package version ', ver)
+}
+
+c(
+
+    bibentry(bibtype="manual",
+        title = "mipaquete_package",
+        author = personList(
+            as.person("JuliethLopez")
+        ),
+        year = format(Sys.Date(), "%Y"),
+        url = "http://www.bioconductor.org/packages/mipaquete",
+        note = pkgVer('mipaquete'),
+        doi = '10.18129/B9.bioc.mipaquete'
+    ),
+    bibentry(bibtype="article",
+        title = "mipaquete_package",
+        author = personList(
+            as.person("JuliethLopez")
+        ),
+        year = format(Sys.Date(), "%Y"),
+        journal = "bioRxiv",
+        doi = "10.1101/TODO",
+        url = "https://www.biorxiv.org/content/10.1101/TODO"
+    )
+)
