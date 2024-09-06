@@ -26,8 +26,6 @@ commit](https://bioconductor.org/shields/lastcommit/devel/bioc/mipaquete.svg)](h
 [![Bioc
 dependencies](https://bioconductor.org/shields/dependencies/release/mipaquete.svg)](https://bioconductor.org/packages/release/bioc/html/mipaquete.html#since)
 [![check-bioc](https://github.com/JuliethLopez/mipaquete/actions/workflows/check-bioc.yml/badge.svg)](https://github.com/JuliethLopez/mipaquete/actions/workflows/check-bioc.yml)
-[![Codecov test
-coverage](https://codecov.io/gh/JuliethLopez/mipaquete/graph/badge.svg)](https://app.codecov.io/gh/JuliethLopez/mipaquete)
 <!-- badges: end -->
 
 The goal of `mipaquete` is to …
@@ -96,8 +94,7 @@ Please run this yourself to check for any updates on how to cite
 print(citation('mipaquete'), bibtex = TRUE)
 #> To cite package 'mipaquete' in publications use:
 #> 
-#>   JuliethLopez (2024). _mipaquete_package_.
-#>   doi:10.18129/B9.bioc.mipaquete
+#>   JuliethLopez (2024). _mipaquete1_. doi:10.18129/B9.bioc.mipaquete
 #>   <https://doi.org/10.18129/B9.bioc.mipaquete>,
 #>   https://github.com/JuliethLopez/mipaquete/mipaquete - R package
 #>   version 0.99.0, <http://www.bioconductor.org/packages/mipaquete>.
@@ -105,7 +102,7 @@ print(citation('mipaquete'), bibtex = TRUE)
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {mipaquete_package},
+#>     title = {mipaquete1},
 #>     author = {{JuliethLopez}},
 #>     year = {2024},
 #>     url = {http://www.bioconductor.org/packages/mipaquete},
@@ -113,14 +110,14 @@ print(citation('mipaquete'), bibtex = TRUE)
 #>     doi = {10.18129/B9.bioc.mipaquete},
 #>   }
 #> 
-#>   JuliethLopez (2024). "mipaquete_package." _bioRxiv_. doi:10.1101/TODO
+#>   JuliethLopez (2024). "mipaquete2." _bioRxiv_. doi:10.1101/TODO
 #>   <https://doi.org/10.1101/TODO>,
 #>   <https://www.biorxiv.org/content/10.1101/TODO>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Article{,
-#>     title = {mipaquete_package},
+#>     title = {mipaquete2},
 #>     author = {{JuliethLopez}},
 #>     year = {2024},
 #>     journal = {bioRxiv},

@@ -27,7 +27,6 @@ knitr::opts_chunk$set(
 [![Bioc last commit](https://bioconductor.org/shields/lastcommit/devel/bioc/mipaquete.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/mipaquete/)
 [![Bioc dependencies](https://bioconductor.org/shields/dependencies/release/mipaquete.svg)](https://bioconductor.org/packages/release/bioc/html/mipaquete.html#since)
 [![check-bioc](https://github.com/JuliethLopez/mipaquete/actions/workflows/check-bioc.yml/badge.svg)](https://github.com/JuliethLopez/mipaquete/actions/workflows/check-bioc.yml)
-[![Codecov test coverage](https://codecov.io/gh/JuliethLopez/mipaquete/graph/badge.svg)](https://app.codecov.io/gh/JuliethLopez/mipaquete)
 <!-- badges: end -->
 
 The goal of `mipaquete` is to ...
