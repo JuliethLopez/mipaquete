@@ -91,7 +91,7 @@ Please run this yourself to check for any updates on how to cite
 **mipaquete**.
 
 ``` r
-print(citation('mipaquete'), bibtex = TRUE)
+print(citation("mipaquete"), bibtex = TRUE)
 #> To cite package 'mipaquete' in publications use:
 #> 
 #>   JuliethLopez (2024). _mipaquete1_. doi:10.18129/B9.bioc.mipaquete

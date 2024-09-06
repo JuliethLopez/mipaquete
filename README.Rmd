@@ -79,7 +79,7 @@ Below is the citation output from using `citation('mipaquete')` in R. Please
 run this yourself to check for any updates on how to cite __mipaquete__.
 
 ```{r 'citation', eval = requireNamespace('mipaquete')}
-print(citation('mipaquete'), bibtex = TRUE)
+print(citation("mipaquete"), bibtex = TRUE)
 ```
 
 Please note that the `mipaquete` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.
