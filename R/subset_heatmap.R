@@ -21,8 +21,10 @@
 #'   mediciones = c("medicion_a", "medicion_b", "medicion_c"),
 #'   grupos = c("grupo_d","grupo_e","grupo_f"))
 #'
-subset_heatmap <- function(x, mediciones = NULL,
-                           grupos = NULL) {
+subset_heatmap <- function(x, grupos = NULL,
+                           mediciones = NULL) {
+  # evalate class of x
+  stopifnot("x must be a matrix" = inherits(x, "matrix"))
   # subset matrix
   x_subset <- x[mediciones, grupos]
   # plot heatmap
